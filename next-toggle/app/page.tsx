@@ -13,7 +13,7 @@ export default function Home() {
 
 
             <Link
-              href="https://github.com/ibelick/background-snippets"
+              href="https://github.com/MODSetter/next-toggle"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="relative mx-auto flex max-w-2xl flex-col items-center gap-2">
             <div className="mb-8 flex">
               <Link
-                href="https://github.com/ibelick/background-snippets"
+                href="https://github.com/MODSetter/next-toggle"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex"
@@ -77,7 +77,7 @@ export default function Home() {
               <p className="text-sm">© 2024 Next-Toggle by MODSetter</p>
             </div>
             <div className="flex items-center justify-center space-x-4">
-              <Link className="text-gray-400 hover:text-blue-500 transition-colors" href="#" rel="noopener noreferrer">
+              <Link className="text-gray-400 hover:text-blue-500 transition-colors" href="https://github.com/MODSetter/next-toggle" rel="noopener noreferrer">
                 <Github className="h-6 w-6" />
                 <span className="sr-only">GitHub</span>
               </Link>

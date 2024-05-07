@@ -2,10 +2,9 @@
 
 import * as React from "react"
 import { useTheme } from "next-themes"
-import ReactDOMServer from 'react-dom/server';
 import { getBackground } from "./background-provider"
 import { Button } from "@/components/ui/button"
-import { Monitor, Moon, Sun, UserPlus } from "lucide-react"
+import { Monitor, Moon, Sun} from "lucide-react"
 
 
 import {
@@ -25,9 +24,6 @@ export function ThemeToggler() {
     const [background, setBackground] = React.useState<React.JSX.Element | null>(null)
 
     const setModTheme = (name: string) => {
-        // if (name === "S-Y") {
-        //     setTheme("system")
-        // }
         const res = getBackground(name);
         if (res) {
             if (name[0] === 'L') {
