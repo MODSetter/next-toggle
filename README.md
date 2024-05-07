@@ -4,8 +4,12 @@ Next-Toggle is just a simple **plug and use, theme toggle** button with **multip
 
 
 # DEMO
-Link : https://modsetter.github.io/next-toggle/
+
 [![NEXT-TOGGLE](https://img.youtube.com/vi/WFHz8KW1OTI/0.jpg)](https://www.youtube.com/watch?v=WFHz8KW1OTI)
+
+
+# LIVE URL
+https://modsetter.github.io/next-toggle/
 
 ## USAGE
 
