@@ -25,15 +25,17 @@ export function ThemeToggler() {
     const [background, setBackground] = React.useState<React.JSX.Element | null>(null)
 
     const setModTheme = (name: string) => {
-        if(name === "S-Y"){
-            setTheme("system")
-        }
+        // if (name === "S-Y") {
+        //     setTheme("system")
+        // }
         const res = getBackground(name);
         if (res) {
-            if (name[0] == 'L') {
+            if (name[0] === 'L') {
                 setTheme("light")
-            } else {
+            } else if(name[0] === 'D') {
                 setTheme("dark")
+            } else{
+                setTheme("system")
             }
 
             setBackground(res);
@@ -61,6 +63,9 @@ export function ThemeToggler() {
                         </DropdownMenuSubTrigger>
                         <DropdownMenuPortal>
                             <DropdownMenuSubContent>
+                                <DropdownMenuItem onClick={() => setModTheme("L")}>
+                                    Light Default
+                                </DropdownMenuItem>
                                 <DropdownMenuItem onClick={() => setModTheme("L-1")}>
                                     Light #1
                                 </DropdownMenuItem>
@@ -111,6 +116,9 @@ export function ThemeToggler() {
                         </DropdownMenuSubTrigger>
                         <DropdownMenuPortal>
                             <DropdownMenuSubContent>
+                                <DropdownMenuItem onClick={() => setModTheme("D")}>
+                                    Dark Default
+                                </DropdownMenuItem>
                                 <DropdownMenuItem onClick={() => setModTheme("D-1")}>
                                     Dark #1
                                 </DropdownMenuItem>
@@ -143,7 +151,7 @@ export function ThemeToggler() {
                     </DropdownMenuSub>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem onClick={() => setModTheme("S-Y")}>
-                        <Monitor className="mr-2 h-4 w-4"/>
+                        <Monitor className="mr-2 h-4 w-4" />
                         System
                     </DropdownMenuItem>
                 </DropdownMenuContent>

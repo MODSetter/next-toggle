@@ -1,7 +1,6 @@
 import { ThemeToggler } from "@/components/next-toggle/theme-toggler";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Github } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -60,7 +59,7 @@ export default function Home() {
               </span>
             </p>
             <p className="mt-6 text-center text-lg leading-6 text-gray-600 dark:text-gray-200">
-              Ready-to-use, theme toggle button with multiple light and dark themes for NextJs projects using next-themes.
+              Plug and use, theme toggle button with multiple light and dark themes for NextJs projects using next-themes.
             </p>
             <div className="mt-10 flex gap-4">
 
