@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NEXT-TOGGLE
 
-## Getting Started
+Next-Toggle is just a simple **plug and use, theme toggle** button with **multiple light and dark themes** for NextJs projects using [next-themes](https://github.com/pacocoursey/next-themes).
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# DEMO
+Link : https://modsetter.github.io/next-toggle/
+[![NEXT-TOGGLE](https://img.youtube.com/vi/WFHz8KW1OTI/0.jpg)](https://www.youtube.com/watch?v=WFHz8KW1OTI)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## USAGE
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next-Toggle uses next-themes - `useTheme` hook + Background Snippets from : https://github.com/ibelick/background-snippets to apply multiple themes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You just copy my whole next-toggle component from `@components/next-toggle` 
+and use it in your NextJS/ReactJS.
 
-## Learn More
+## CONTRIBUTING
 
-To learn more about Next.js, take a look at the following resources:
+ 1. Easiest way to contribute is to add more background snippets. Go make some great theme combos.
+ 2. Add more `ThemeToggler` components using different UI libraries, might help other guys.
+ 3. If you make any QOL improvement don't be shy to raise PR.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## IMPORTANT NOTES
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ - My theme-toggler component `@components/next-toggle/theme-toggler` uses Shadcn components. You can make your component with any UI library of your liking.
