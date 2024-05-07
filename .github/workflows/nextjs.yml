@@ -51,6 +51,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
+          sparse-checkout: next-toggle
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
