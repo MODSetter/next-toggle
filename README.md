@@ -18,6 +18,10 @@ Next-Toggle uses next-themes - `useTheme` hook + Background Snippets from : http
 You just copy my whole next-toggle component from `@components/next-toggle` 
 and use it in your NextJS/ReactJS.
 
+## SUPPORT
+
+Please give it a Github star to support. 👍
+
 ## CONTRIBUTING
 
  1. Easiest way to contribute is to add more background snippets. Go make some great theme combos.
