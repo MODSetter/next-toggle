@@ -1,6 +1,6 @@
 # NEXT-TOGGLE
 
-Next-Toggle is just a simple **plug and use, theme toggle** button with **multiple light and dark themes** for NextJs projects using [next-themes](https://github.com/pacocoursey/next-themes).
+Next-Toggle is just a simple **plug and use, theme toggle** button with **multiple light and dark themes** for web projects using [next-themes](https://github.com/pacocoursey/next-themes).
 
 
 # DEMO
@@ -15,8 +15,8 @@ https://modsetter.github.io/next-toggle/
 
 Next-Toggle uses next-themes - `useTheme` hook + Background Snippets from : https://github.com/ibelick/background-snippets to apply multiple themes.
 
-You just copy my whole next-toggle component from `@components/next-toggle` 
-and use it in your NextJS/ReactJS.
+You can just copy my whole next-toggle component from `@components/next-toggle` 
+and use it in your project.
 
 ## SUPPORT
 
